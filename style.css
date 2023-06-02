@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.banner{
+    background-color: #f9e2ca;       
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    
+   
+    
+   
+    
+}
+.img-nicho{   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text-nicho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph{
+    width: 96%;
+}
+.btn1{
+    background-color: #ff6000;
+    width: 10rem;
+    float: left;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 15px rgb(177, 117, 5) ;
+    padding: 15px;
+}
+.descricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    width: 90%;
+    margin-top: 20px;
+    
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+.banner h2{
+    border-bottom: 2px solid black;
+    
+}
+.text-ini h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: #ff6000;
+}
+.img-logo{
+    display: flex;
+    align-items: center;
+}
+.faixa{
+    display: flex;
+    align-items: center;
+    border: 2px solid #f9e2ca;
+    
+    
+}
+.tira3{
+    display: flex;
+    align-items: center;
+}
+.tira4{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+.carousel{
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 50px;
+}
+.carousel-item{
+  width: 99%; 
+  
+  
+}
+.carousel-item img{
+    max-width: 50vw;
+    height: 90vh;
+    margin: 0 auto;
+   
+    
+}
+.card{
+    margin-top: 550px;
+}
+.anuncios{
+   display: flex;
+    padding-top:500px ;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+@media (max-width: 400px) {
+    .carousel-item img{
+        height: 90vh;
+        max-width: 100vw;
+        border: 2px solid grey;
+    }
+    .carousel{
+    width: 100%;   
+    
+    
+}
+.text-ini h2{
+    font-size: 3rem;
+}
+    
+}
+
+
+
