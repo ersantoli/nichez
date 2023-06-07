@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0px;
+
 }
 
 .banner{
@@ -70,48 +71,39 @@
 .faixa{
     display: flex;
     align-items: center;
-    border: 2px solid #f9e2ca;
+    border: 2px solid #f98508;
+    padding: 20px;
     
     
 }
 .tira3{
     display: flex;
+    
     align-items: center;
+    border: 2px solid red;
 }
 .tira4{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
 }
-
-
-.carousel{
-    width: 80%;
-    margin: 0 auto;
-    height: 200px;
-    padding-top: 50px;
-}
-.carousel-item{
-  width: 99%; 
-  
-  
-}
-.carousel-item img{
-    max-width: 50vw;
-    height: 90vh;
-    margin: 0 auto;
-   
-    
+.instead{
+    padding: 10px;
 }
 .card{
-    margin-top: 550px;
+    padding-top: 30px;
+}
+
+.cards{
+    padding-top: 100px;
 }
 .anuncios{
    display: flex;
-    padding-top:500px ;
     align-items: center;
     justify-content: space-around;
-    margin: 20px;
+    margin-top: 50px;
+    border: 2px solid red;
+    
 }
 @media (max-width: 400px) {
     .carousel-item img{
